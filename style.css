@@ -1,0 +1,67 @@
+
+
+.world{
+    margin: 5%;
+}
+/* ---------------dhaka division-------------- */
+/* ---------------dhaka division-------------- */
+.dhaka{
+    display: flex;
+    height: 80%;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    
+    
+}
+h1{
+    font-size: xx-large;
+}
+.mirpur a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(231, 47, 109);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.mirpur{
+    width: 50%;
+    margin: 7% 20% 5% 5%;
+}
+.uttara img{
+    height: 500px;
+    margin-left: -20%;
+    margin-top: 2.5%;
+    
+}
+.naogaon{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: grid;
+    text-align: center;
+    background-color: black;
+    border-radius: 7px;
+    grid-gap: 20px;
+    width: 180px;
+    padding: 20px;
+    
+}
+#kunjo{
+    background-color: white;
+    width: 130px;
+    padding: 13px 25px;
+    border-radius: 7px;
+}
+#modhu{
+    background-color: white;
+    width: 130px;
+    padding: 13px 25px;
+    border-radius: 7px;
+}
+#khajur{
+    background-color: red;
+    color: white;
+    width: 130px;
+    padding: 13px 25px;
+    border-radius: 7px;
+}
