@@ -1,0 +1,251 @@
+/* -------------------------font----------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.world{
+    margin: 5%;
+}
+
+/* ---------------dhaka division-------------- */
+
+.dhaka{
+    display: flex;
+    height: 80%;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    
+    
+}
+.mirpur h1{
+    font-size: 40;
+}
+.mirpur a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(251, 76, 196);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.fa-angle-right{
+    margin-left: 15px;
+}
+.mirpur{
+    width: 50%;
+    margin: 3% 20% 5% 7%;
+}
+.uttara img{
+    height: 500px;
+    margin-left: -20%;
+    margin-top: 2.5%;
+    
+}
+
+/* ---------------------bongo------------------ */
+
+.bonggo{
+    display: flex;
+    margin-top: 10%;
+    gap: 20px;
+}
+
+/* ---------------------rajshahi division----------------- */
+
+.rajshahi{
+    margin-top: -20px;
+    
+}
+.naogaon{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: grid;
+    text-align: center;
+    background-color: black;
+    border-radius: 7px;
+    gap: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    
+    
+}
+#kunjo{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 7px;
+    
+}
+#modhu{
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 7px;
+}
+#khajur{
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 7px;
+}
+/* ................borisal---------------------- */
+
+.borisal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.borisal-inside{
+    border: 1px solid rgb(224, 223, 223);
+    /* width: 78%; */
+    border-radius: 13px;
+    
+}
+.Bakerganj img{
+    width: 100%;
+}
+.Banaripara{
+    padding: 20px;
+}
+.Banaripara span{
+    display: inline;
+}
+.duration{
+    display: flex;
+}
+.duration img{
+    margin-bottom: -6px;
+    margin-right: 7px;
+}
+.comment{
+    margin-left: 10px;
+    display: flex;
+}
+.comment img{
+    margin-bottom: -6px;
+    margin-right: 7px;
+}
+
+/* -------------------------footer--------------------- */
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 55%;
+    margin-top: 7%;   
+}
+footer h1{
+    padding-top: 10%;
+    padding-bottom: 1%;
+    
+}
+
+.foot{
+    display: flex;
+    margin: 0px 10% 0px 10%;
+    padding-left: 10%;
+    border-top: 1px solid rgba(255, 255, 255, 0.127);
+}
+.foot p{
+    padding-top: 2%;
+    color: rgba(192, 192, 192, 0.59);
+    font-size: small;
+    margin-left: 5%;
+}
+.foot-media{
+    margin-top: 1%;
+    margin-left: -2%;
+}
+.foot-media i{
+    margin-left: 1%;
+}
+
+/* -------------------------media queris------------------------ */
+
+@media only screen and (max-width: 688px) {
+    .world{
+        width: 100%;
+    }
+    .dhaka{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        width: 334px;
+        height: 472px;
+        border-radius: 15px;
+        color: white;
+        
+    }
+    .mirpur{
+        padding-left: 10%;
+        /* border: 1px solid red; */
+        width: 65%;
+    }
+    .mirpur h1{
+        font-size: larger;
+    }
+    .mirpur p{
+        font-size: small;
+    }
+    .uttara img{
+        padding-left: 20%;
+        height: 70%;
+    }
+
+    /* ***** ***** ***** */
+
+    .naogaon{
+        
+        display: grid;
+        text-align: center;
+        background-color: white;
+        margin-left: 13%;
+        padding: 0%;   
+    }
+    #kunjo{
+        border: 1px solid rgba(192, 192, 192, 0.539);
+    }
+    #modhu{
+        border: 1px solid rgba(192, 192, 192, 0.539);
+        width: 50%;
+        margin-left: 13%;
+    }
+    #khajur{
+        width: 50%;
+        margin-left: 13%;
+    }
+
+    /* ***** ***** ***** */
+
+    .bonggo{
+        display: inline;
+
+    }
+    .borisal{
+        grid-template-columns: repeat(1, 1fr);
+        width: 334px;
+        margin-top: -3%;
+    }
+
+    /* ***** ***** ***** */
+
+    footer{
+        margin-top: -1%;
+        height: 412px;
+        width: 375px;
+    }
+    h1{
+        
+        font-size: x-large;
+    }
+    .foot {
+        padding-right: 10%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .foot-media{
+        display: none;
+    }
+    
+}
