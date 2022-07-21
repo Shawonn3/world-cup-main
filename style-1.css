@@ -5,6 +5,7 @@ body{
 }
 .world{
     margin: 5%;
+    
 }
 
 /* ---------------dhaka division-------------- */
@@ -15,8 +16,6 @@ body{
     background-color: black;
     border-radius: 25px;
     color: white;
-    
-    
 }
 .mirpur h1{
     font-size: 40;
@@ -65,16 +64,22 @@ body{
     border-radius: 7px;
     gap: 20px;
     width: 200px;
-    height: 200px;
+    height: 220px;
     padding: 20px;
     
     
 }
-#kunjo{
-    background-color: white;
-    padding: 15px 20px;
+nav li {
+    text-decoration: none;
+    background-color: red;
+    height: 45px;
     border-radius: 7px;
-    
+    margin: -10% 0 -15% -25%;
+    padding-top: 10%;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
 }
 #modhu{
     background-color: white;
@@ -82,8 +87,8 @@ body{
     border-radius: 7px;
 }
 #khajur{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 15px 25px;
     border-radius: 7px;
 }
@@ -93,7 +98,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
+       
 }
 .borisal-inside{
     border: 1px solid rgb(224, 223, 223);
@@ -103,6 +108,7 @@ body{
 }
 .Bakerganj img{
     width: 100%;
+    
 }
 .Banaripara{
     padding: 20px;
@@ -162,8 +168,8 @@ footer h1{
 }
 
 /* -------------------------media queris------------------------ */
-
-@media only screen and (max-width: 688px) {
+/* +++++++mobile device ++++++++ */
+@media only screen and (max-width: 668px) {
     .world{
         width: 100%;
     }
@@ -203,8 +209,8 @@ footer h1{
         margin-left: 13%;
         padding: 0%;   
     }
-    #kunjo{
-        border: 1px solid rgba(192, 192, 192, 0.539);
+    nav li{
+        list-style: none;
     }
     #modhu{
         border: 1px solid rgba(192, 192, 192, 0.539);
@@ -212,6 +218,7 @@ footer h1{
         margin-left: 13%;
     }
     #khajur{
+        border: 1px solid rgba(192, 192, 192, 0.539);
         width: 50%;
         margin-left: 13%;
     }
@@ -247,5 +254,106 @@ footer h1{
     .foot-media{
         display: none;
     }
+    
+}
+/* ===============tablet device=========== */
+
+@media only screen and (min-width:668px) and (max-width:992px) {
+    .world{
+        width: 100%;
+    }
+    .dhaka{
+        
+        width: 734px;
+        height: 398;
+    }
+    .mirpur{
+        /* border: 1px solid red; */
+        height: 80%;
+        width: 50%;
+        margin-left: 10%
+        
+    }
+    .mirpur h1{
+        font-size: xx-large;
+    }
+    .mirpur{
+        font-size: small;
+    }
+    .uttara img{
+        width: 130%;
+        height: 90%;
+        margin-left: -50%;
+        margin-top: 15%;
+        
+    }
+    .bonggo{
+        display: inline;
+        
+    }
+    .rajshahi{
+        
+        margin-top: -5%;
+        
+    }
+    
+    .naogaon{
+        
+        background: none;
+        display: flex;
+        width: 90%;
+        height: 12%;
+    }
+    nav li{
+        list-style: none;
+        
+    }
+    #modhu{
+        margin-top: 2px;
+        border: 1px solid rgba(192, 192, 192, 0.265);
+        height: 40%;
+        width: 20%;
+        margin-right: 20%;
+        margin-left: 10%;
+        
+        
+    }
+    #khajur{
+        margin-top: 2px;
+        border: 1px solid rgba(192, 192, 192, 0.265);
+        height: 40%;
+        width: 20%;
+        margin-left: -10%;
+        
+    }
+    .borisal{
+        margin-top: -10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 5%;
+    }
+    .v-btn a{
+        text-decoration: none;
+        color: white;
+        background-color: red;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .v-btn{
+        text-align: center;
+        margin-top: 5%;
+    }
+    
+    footer{
+        overflow-wrap: break-word;
+        overflow: scroll;
+    }
+    .foot p{
+        text-align: justify;
+    }
+    .foot-media{
+        text-align: center;
+    }
+
     
 }

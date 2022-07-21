@@ -74,14 +74,22 @@ body{
     border-radius: 7px;
     
 }
-#modhu{
-    background-color: white;
-    padding: 15px 25px;
-    border-radius: 7px;
-}
-#khajur{
+nav li {
+    text-decoration: none;
     background-color: red;
+    height: 45px;
+    border-radius: 7px;
+    margin: -10% 0 -15% -25%;
+    padding-top: 10%;
+}
+nav li a{
     color: white;
+    text-decoration: none;
+}
+
+#khajur{
+    background-color: white;
+    color: black;
     padding: 15px 25px;
     border-radius: 7px;
 }
